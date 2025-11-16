@@ -8,4 +8,5 @@ resource "aws_instance" "first" {
   instance_type = "t3.small"
   tags = {
     Name = "first"
-  }}
+  }
+}
